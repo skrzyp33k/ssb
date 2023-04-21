@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSB: Dokumentacja pliku SSB_ref_v2/loop.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SSB
+   &#160;<span id="projectnumber">2.3</span>
+   </div>
+   <div id="projectbrief">Skrzypek&#39;s &amp; Sokół&#39;s contacts Base</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2a461184b69a50f5637f66dcdfee4465.html">SSB_ref_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku loop.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Kod źródłowy części programu odpowiedzialnej za obsługę poleceń wywoływanych w głównej pętli.  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="globals_8h_source.html">globals.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a0d20b69b0ad703df78459e1033d5c1d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a0d20b69b0ad703df78459e1033d5c1d4">printHelp</a> ()</td></tr>
+<tr class="memdesc:a0d20b69b0ad703df78459e1033d5c1d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca pomoc.  <a href="loop_8c.html#a0d20b69b0ad703df78459e1033d5c1d4">Więcej...</a><br /></td></tr>
+<tr class="separator:a0d20b69b0ad703df78459e1033d5c1d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4898a09411ad503295bdbe640b05dd10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a4898a09411ad503295bdbe640b05dd10">printAbout</a> ()</td></tr>
+<tr class="memdesc:a4898a09411ad503295bdbe640b05dd10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca informacje o programie.  <a href="loop_8c.html#a4898a09411ad503295bdbe640b05dd10">Więcej...</a><br /></td></tr>
+<tr class="separator:a4898a09411ad503295bdbe640b05dd10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61e706bcf586a124495d82a2fe6929de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a61e706bcf586a124495d82a2fe6929de">printUsers</a> ()</td></tr>
+<tr class="memdesc:a61e706bcf586a124495d82a2fe6929de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca listę dodanych użytkowników.  <a href="loop_8c.html#a61e706bcf586a124495d82a2fe6929de">Więcej...</a><br /></td></tr>
+<tr class="separator:a61e706bcf586a124495d82a2fe6929de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3172b24a637c3d9c086e139d720a6f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#af3172b24a637c3d9c086e139d720a6f2">printGroups</a> ()</td></tr>
+<tr class="memdesc:af3172b24a637c3d9c086e139d720a6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca listę grup.  <a href="loop_8c.html#af3172b24a637c3d9c086e139d720a6f2">Więcej...</a><br /></td></tr>
+<tr class="separator:af3172b24a637c3d9c086e139d720a6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258f68dd250666dd9261c77f818e5ad5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a258f68dd250666dd9261c77f818e5ad5">printContacts</a> (char *searchKey)</td></tr>
+<tr class="memdesc:a258f68dd250666dd9261c77f818e5ad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca kontakty rosnąco po ID z możliwością wyszukiwania.  <a href="loop_8c.html#a258f68dd250666dd9261c77f818e5ad5">Więcej...</a><br /></td></tr>
+<tr class="separator:a258f68dd250666dd9261c77f818e5ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add28e22d6e4b98aa271db17fd6ecb142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#add28e22d6e4b98aa271db17fd6ecb142">printSorted</a> (char *dir, char *field)</td></tr>
+<tr class="memdesc:add28e22d6e4b98aa271db17fd6ecb142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca kontakty posortowane rosnąco/malejąco według imienia/nazwiska.  <a href="loop_8c.html#add28e22d6e4b98aa271db17fd6ecb142">Więcej...</a><br /></td></tr>
+<tr class="separator:add28e22d6e4b98aa271db17fd6ecb142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a665559515b4222dd0d1db8769657528e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a665559515b4222dd0d1db8769657528e">printContactsGroups</a> (int ID_Group)</td></tr>
+<tr class="memdesc:a665559515b4222dd0d1db8769657528e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wyświetlająca kontakty należące do podanej grupy.  <a href="loop_8c.html#a665559515b4222dd0d1db8769657528e">Więcej...</a><br /></td></tr>
+<tr class="separator:a665559515b4222dd0d1db8769657528e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b4e43989dbc26f3a6ce6502d00607c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#ae6b4e43989dbc26f3a6ce6502d00607c">relationDelete</a> (int id)</td></tr>
+<tr class="memdesc:ae6b4e43989dbc26f3a6ce6502d00607c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca relacje do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku.  <a href="loop_8c.html#ae6b4e43989dbc26f3a6ce6502d00607c">Więcej...</a><br /></td></tr>
+<tr class="separator:ae6b4e43989dbc26f3a6ce6502d00607c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5631f2f097ba8679836cca2fd5ca57b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a5631f2f097ba8679836cca2fd5ca57b1">deleteContact</a> (int id)</td></tr>
+<tr class="memdesc:a5631f2f097ba8679836cca2fd5ca57b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca kontakt do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku.  <a href="loop_8c.html#a5631f2f097ba8679836cca2fd5ca57b1">Więcej...</a><br /></td></tr>
+<tr class="separator:a5631f2f097ba8679836cca2fd5ca57b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab17050c4bb75e13bd00cae8bf946050c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#ab17050c4bb75e13bd00cae8bf946050c">deleteGroup</a> (int id)</td></tr>
+<tr class="memdesc:ab17050c4bb75e13bd00cae8bf946050c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca grupę do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku.  <a href="loop_8c.html#ab17050c4bb75e13bd00cae8bf946050c">Więcej...</a><br /></td></tr>
+<tr class="separator:ab17050c4bb75e13bd00cae8bf946050c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af55df87e37292a150f183f1307ac43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a1af55df87e37292a150f183f1307ac43">logout</a> ()</td></tr>
+<tr class="memdesc:a1af55df87e37292a150f183f1307ac43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wylogowująca zalogowanego użytkownika.  <a href="loop_8c.html#a1af55df87e37292a150f183f1307ac43">Więcej...</a><br /></td></tr>
+<tr class="separator:a1af55df87e37292a150f183f1307ac43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b1357117d13411fd1a27c421d1f3ed7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a3b1357117d13411fd1a27c421d1f3ed7">deleteMe</a> ()</td></tr>
+<tr class="memdesc:a3b1357117d13411fd1a27c421d1f3ed7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja usuwająca zalogowanego użytkownika.  <a href="loop_8c.html#a3b1357117d13411fd1a27c421d1f3ed7">Więcej...</a><br /></td></tr>
+<tr class="separator:a3b1357117d13411fd1a27c421d1f3ed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a488d691be0f6e1b267a8570f4e21de8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a488d691be0f6e1b267a8570f4e21de8b">passwd</a> ()</td></tr>
+<tr class="memdesc:a488d691be0f6e1b267a8570f4e21de8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja zmieniająca hasło zalogowanego użytkownika.  <a href="loop_8c.html#a488d691be0f6e1b267a8570f4e21de8b">Więcej...</a><br /></td></tr>
+<tr class="separator:a488d691be0f6e1b267a8570f4e21de8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeadf254aa753ffe26b76be8ef674cd13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#aeadf254aa753ffe26b76be8ef674cd13">addContact</a> ()</td></tr>
+<tr class="memdesc:aeadf254aa753ffe26b76be8ef674cd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca kontakt do bazy.  <a href="loop_8c.html#aeadf254aa753ffe26b76be8ef674cd13">Więcej...</a><br /></td></tr>
+<tr class="separator:aeadf254aa753ffe26b76be8ef674cd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5226502a34d91ea87527f1fdfe1cfd37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a5226502a34d91ea87527f1fdfe1cfd37">addPhone</a> (int ID)</td></tr>
+<tr class="memdesc:a5226502a34d91ea87527f1fdfe1cfd37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca numer telefonu do kontaktu o podanym ID.  <a href="loop_8c.html#a5226502a34d91ea87527f1fdfe1cfd37">Więcej...</a><br /></td></tr>
+<tr class="separator:a5226502a34d91ea87527f1fdfe1cfd37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac80ccda277b74e8f5618e2006b54e49e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#ac80ccda277b74e8f5618e2006b54e49e">addEMail</a> (int ID)</td></tr>
+<tr class="memdesc:ac80ccda277b74e8f5618e2006b54e49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca adres e-mail do kontaktu o podanym ID.  <a href="loop_8c.html#ac80ccda277b74e8f5618e2006b54e49e">Więcej...</a><br /></td></tr>
+<tr class="separator:ac80ccda277b74e8f5618e2006b54e49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a272374529818001c7b535c2332b80403"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a272374529818001c7b535c2332b80403">addAdress</a> (int ID)</td></tr>
+<tr class="memdesc:a272374529818001c7b535c2332b80403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca adres pocztowy do kontaktu o podanym ID.  <a href="loop_8c.html#a272374529818001c7b535c2332b80403">Więcej...</a><br /></td></tr>
+<tr class="separator:a272374529818001c7b535c2332b80403"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af290c45a7c8fabb27fc38d1e5439d057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#af290c45a7c8fabb27fc38d1e5439d057">addGroup</a> ()</td></tr>
+<tr class="memdesc:af290c45a7c8fabb27fc38d1e5439d057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja dodająca grupę do bazy.  <a href="loop_8c.html#af290c45a7c8fabb27fc38d1e5439d057">Więcej...</a><br /></td></tr>
+<tr class="separator:af290c45a7c8fabb27fc38d1e5439d057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1876de5d2390e4fbea9df8a19c5ece8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#af1876de5d2390e4fbea9df8a19c5ece8">assignGroup</a> (int ID_Contact, int ID_Group)</td></tr>
+<tr class="memdesc:af1876de5d2390e4fbea9df8a19c5ece8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja przypisująca kontakt do grupy.  <a href="loop_8c.html#af1876de5d2390e4fbea9df8a19c5ece8">Więcej...</a><br /></td></tr>
+<tr class="separator:af1876de5d2390e4fbea9df8a19c5ece8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8af151d7f8137f16070354eeadd00bbb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a8af151d7f8137f16070354eeadd00bbb">createUser</a> (char *str)</td></tr>
+<tr class="memdesc:a8af151d7f8137f16070354eeadd00bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja tworząca użytkownika.  <a href="loop_8c.html#a8af151d7f8137f16070354eeadd00bbb">Więcej...</a><br /></td></tr>
+<tr class="separator:a8af151d7f8137f16070354eeadd00bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a074f507872068ffad7dbf62fc939d715"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a074f507872068ffad7dbf62fc939d715">loginUser</a> (char *str)</td></tr>
+<tr class="memdesc:a074f507872068ffad7dbf62fc939d715"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja logująca użytkownika.  <a href="loop_8c.html#a074f507872068ffad7dbf62fc939d715">Więcej...</a><br /></td></tr>
+<tr class="separator:a074f507872068ffad7dbf62fc939d715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27065fa4314512c36fd38c60634b9f31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a27065fa4314512c36fd38c60634b9f31">editContact</a> (int ID_Contact)</td></tr>
+<tr class="memdesc:a27065fa4314512c36fd38c60634b9f31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja edytująca kontakt.  <a href="loop_8c.html#a27065fa4314512c36fd38c60634b9f31">Więcej...</a><br /></td></tr>
+<tr class="separator:a27065fa4314512c36fd38c60634b9f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a544b6827481e993bfeb4f011c9951769"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loop_8c.html#a544b6827481e993bfeb4f011c9951769">editGroup</a> (int ID_Group)</td></tr>
+<tr class="memdesc:a544b6827481e993bfeb4f011c9951769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja edytująca grupę  <a href="loop_8c.html#a544b6827481e993bfeb4f011c9951769">Więcej...</a><br /></td></tr>
+<tr class="separator:a544b6827481e993bfeb4f011c9951769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Kod źródłowy części programu odpowiedzialnej za obsługę poleceń wywoływanych w głównej pętli. </p>
+</div><h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="a272374529818001c7b535c2332b80403"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a272374529818001c7b535c2332b80403">&#9670;&nbsp;</a></span>addAdress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addAdress </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca adres pocztowy do kontaktu o podanym ID. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>- ID kontaktu do którego przypisany będzie numer telefonu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aeadf254aa753ffe26b76be8ef674cd13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeadf254aa753ffe26b76be8ef674cd13">&#9670;&nbsp;</a></span>addContact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addContact </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca kontakt do bazy. </p>
+
+</div>
+</div>
+<a id="ac80ccda277b74e8f5618e2006b54e49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac80ccda277b74e8f5618e2006b54e49e">&#9670;&nbsp;</a></span>addEMail()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addEMail </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca adres e-mail do kontaktu o podanym ID. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>- ID kontaktu do którego przypisany będzie numer telefonu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af290c45a7c8fabb27fc38d1e5439d057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af290c45a7c8fabb27fc38d1e5439d057">&#9670;&nbsp;</a></span>addGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca grupę do bazy. </p>
+
+</div>
+</div>
+<a id="a5226502a34d91ea87527f1fdfe1cfd37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5226502a34d91ea87527f1fdfe1cfd37">&#9670;&nbsp;</a></span>addPhone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void addPhone </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca numer telefonu do kontaktu o podanym ID. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID</td><td>- ID kontaktu do którego przypisany będzie numer telefonu </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af1876de5d2390e4fbea9df8a19c5ece8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1876de5d2390e4fbea9df8a19c5ece8">&#9670;&nbsp;</a></span>assignGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void assignGroup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID_Contact</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID_Group</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja przypisująca kontakt do grupy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID_Contact</td><td>- ID kontaktu </td></tr>
+    <tr><td class="paramname">ID_Group</td><td>- ID grupy </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8af151d7f8137f16070354eeadd00bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8af151d7f8137f16070354eeadd00bbb">&#9670;&nbsp;</a></span>createUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool createUser </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja tworząca użytkownika. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>- ciąg znaków zawierający polecenie i login </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>true jeżeli dodawanie się powiedzie </dd>
+<dd>
+false jeżeli dodawanie się nie powiedzie </dd></dl>
+
+</div>
+</div>
+<a id="a5631f2f097ba8679836cca2fd5ca57b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5631f2f097ba8679836cca2fd5ca57b1">&#9670;&nbsp;</a></span>deleteContact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void deleteContact </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca kontakt do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>- ID kontaktu do usunięcia </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Zobacz również</dt><dd><a class="el" href="file__functions_8c.html#acb659258561b14728dffa0e0d15b685e" title="Funkcja zapisująca kontakty do pliku contacts.ssb Jeżeli kontakt jest w kolejce do usunięcia to go ni...">writeContact()</a> </dd></dl>
+
+</div>
+</div>
+<a id="ab17050c4bb75e13bd00cae8bf946050c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab17050c4bb75e13bd00cae8bf946050c">&#9670;&nbsp;</a></span>deleteGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void deleteGroup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca grupę do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>- ID grupy do usunięcia </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Zobacz również</dt><dd><a class="el" href="file__functions_8c.html#a47f681d1f3aeff71783b3b9a41614ed9" title="Funkcja zapisująca grupy do pliku groups.ssb Jeżeli grupa jest w kolejce do usunięcia to jej nie zapi...">writeGroup()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a3b1357117d13411fd1a27c421d1f3ed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b1357117d13411fd1a27c421d1f3ed7">&#9670;&nbsp;</a></span>deleteMe()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void deleteMe </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja usuwająca zalogowanego użytkownika. </p>
+
+</div>
+</div>
+<a id="a27065fa4314512c36fd38c60634b9f31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27065fa4314512c36fd38c60634b9f31">&#9670;&nbsp;</a></span>editContact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void editContact </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID_Contact</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja edytująca kontakt. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID_Contact</td><td>- ID kontaktu do edycji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a544b6827481e993bfeb4f011c9951769"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a544b6827481e993bfeb4f011c9951769">&#9670;&nbsp;</a></span>editGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void editGroup </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID_Group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja edytująca grupę </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID_Group</td><td>- ID grupy do edycji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a074f507872068ffad7dbf62fc939d715"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a074f507872068ffad7dbf62fc939d715">&#9670;&nbsp;</a></span>loginUser()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool loginUser </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja logująca użytkownika. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>- ciag znaków zawierający polecenie i login </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>true jeżeli logowanie się powiedzie </dd>
+<dd>
+false jeżeli logowanie się nie powiedzie </dd></dl>
+
+</div>
+</div>
+<a id="a1af55df87e37292a150f183f1307ac43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af55df87e37292a150f183f1307ac43">&#9670;&nbsp;</a></span>logout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void logout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wylogowująca zalogowanego użytkownika. </p>
+
+</div>
+</div>
+<a id="a488d691be0f6e1b267a8570f4e21de8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a488d691be0f6e1b267a8570f4e21de8b">&#9670;&nbsp;</a></span>passwd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void passwd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja zmieniająca hasło zalogowanego użytkownika. </p>
+
+</div>
+</div>
+<a id="a4898a09411ad503295bdbe640b05dd10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4898a09411ad503295bdbe640b05dd10">&#9670;&nbsp;</a></span>printAbout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printAbout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca informacje o programie. </p>
+
+</div>
+</div>
+<a id="a258f68dd250666dd9261c77f818e5ad5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258f68dd250666dd9261c77f818e5ad5">&#9670;&nbsp;</a></span>printContacts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printContacts </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>searchKey</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca kontakty rosnąco po ID z możliwością wyszukiwania. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">searchKey</td><td>- klucz do wyszukiwania, jeżeli klucz "null" to pomija wyszukiwanie </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a665559515b4222dd0d1db8769657528e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a665559515b4222dd0d1db8769657528e">&#9670;&nbsp;</a></span>printContactsGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printContactsGroups </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ID_Group</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca kontakty należące do podanej grupy. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ID_Group</td><td>- ID grupy </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af3172b24a637c3d9c086e139d720a6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3172b24a637c3d9c086e139d720a6f2">&#9670;&nbsp;</a></span>printGroups()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printGroups </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca listę grup. </p>
+
+</div>
+</div>
+<a id="a0d20b69b0ad703df78459e1033d5c1d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d20b69b0ad703df78459e1033d5c1d4">&#9670;&nbsp;</a></span>printHelp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printHelp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca pomoc. </p>
+
+</div>
+</div>
+<a id="add28e22d6e4b98aa271db17fd6ecb142"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add28e22d6e4b98aa271db17fd6ecb142">&#9670;&nbsp;</a></span>printSorted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printSorted </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>field</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca kontakty posortowane rosnąco/malejąco według imienia/nazwiska. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>- kierunek sortowania &lt;"asc" - rosnąco / "desc" - malejąco&gt; </td></tr>
+    <tr><td class="paramname">field</td><td>- pole do sortowania &lt;"name" - imię / "surname" - nazwisko&gt; </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a61e706bcf586a124495d82a2fe6929de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e706bcf586a124495d82a2fe6929de">&#9670;&nbsp;</a></span>printUsers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printUsers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wyświetlająca listę dodanych użytkowników. </p>
+
+</div>
+</div>
+<a id="ae6b4e43989dbc26f3a6ce6502d00607c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b4e43989dbc26f3a6ce6502d00607c">&#9670;&nbsp;</a></span>relationDelete()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void relationDelete </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja dodająca relacje do kolejki do usunięcia Usuwanie realizowane w funkcji zapisu do pliku. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">id</td><td>- ID relacji do usunięcia </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Zobacz również</dt><dd><a class="el" href="file__functions_8c.html#aeffcc40ef045b40be188fabf03fe130c" title="Funkcja zapisująca relacje do pliku relations.ssb Jeżeli relacja jest w kolejce do usunięcia to jej n...">writeRelation()</a> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

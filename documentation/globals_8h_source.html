@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSB: Plik źródłowy SSB_ref_v2/globals.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SSB
+   &#160;<span id="projectnumber">2.3</span>
+   </div>
+   <div id="projectbrief">Skrzypek&#39;s &amp; Sokół&#39;s contacts Base</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2a461184b69a50f5637f66dcdfee4465.html">SSB_ref_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">globals.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="globals_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef _GLOBALS_H_</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define _GLOBALS_H_</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;conio.h&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="colors_8h.html">colors.h</a>&quot;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="md5_8h.html">md5.h</a>&quot;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="misc_8h.html">misc.h</a>&quot;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="file__functions_8h.html">file_functions.h</a>&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="loop_8h.html">loop.h</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="globals_8h.html#abcf72cd23bdafb47b19023d91b4c107d">   23</a></span>&#160;<span class="preprocessor">#define INPUT_SIZE 1024 </span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">   24</a></span>&#160;<span class="preprocessor">#define ENTRY_SIZE 128 </span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#pragma region structs</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="struct_contact.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_contact.html">Contact</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="struct_contact.html#a2b321736a2a89c810352a51c299c2e73">   34</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_contact.html#a2b321736a2a89c810352a51c299c2e73">Owner</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="struct_contact.html#a6f3d81dd91d454574f66a73b28b1e988">   35</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_contact.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="struct_contact.html#a99ceb9dee24f8b24032342c2549dec1e">   36</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_contact.html#a99ceb9dee24f8b24032342c2549dec1e">ID_Contact</a>; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="struct_contact.html#a9562b0ca6a7b6bae4ccc625a851b4177">   37</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_contact.html#a9562b0ca6a7b6bae4ccc625a851b4177">Name</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="struct_contact.html#ae4823c02279e0e0ea1d2b00ec328ab23">   38</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_contact.html#ae4823c02279e0e0ea1d2b00ec328ab23">Surname</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="struct_contact.html#a44e207fc37351e8f3558f123324474f3">   39</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_contact.html#a44e207fc37351e8f3558f123324474f3">Description</a>[<a class="code" href="globals_8h.html#abcf72cd23bdafb47b19023d91b4c107d">INPUT_SIZE</a>]; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;};</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="struct_phone.html">   46</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_phone.html">Phone</a></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="struct_phone.html#a6f3d81dd91d454574f66a73b28b1e988">   48</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_phone.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="struct_phone.html#a1286ac8f7e417f5a94f83379e6d53356">   49</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_phone.html#a1286ac8f7e417f5a94f83379e6d53356">ID_Phone</a>; </div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="struct_phone.html#a99ceb9dee24f8b24032342c2549dec1e">   50</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_phone.html#a99ceb9dee24f8b24032342c2549dec1e">ID_Contact</a>; </div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="struct_phone.html#a6e045b1ac71e1741173b9e29f889d569">   51</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_phone.html#a6e045b1ac71e1741173b9e29f889d569">Number</a>[10]; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="struct_adress.html">   58</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_adress.html">Adress</a></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="struct_adress.html#a6f3d81dd91d454574f66a73b28b1e988">   60</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_adress.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="struct_adress.html#a81a07ed596b9f224dd40e9e2728c4584">   61</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_adress.html#a81a07ed596b9f224dd40e9e2728c4584">ID_Adress</a>; </div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="struct_adress.html#a99ceb9dee24f8b24032342c2549dec1e">   62</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_adress.html#a99ceb9dee24f8b24032342c2549dec1e">ID_Contact</a>; </div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="struct_adress.html#a3ba2bb969529d7c399e59f5e26e62b11">   63</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_adress.html#a3ba2bb969529d7c399e59f5e26e62b11">FirstLine</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="struct_adress.html#ad9892a088b375409b1ec3af6cee58314">   64</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_adress.html#ad9892a088b375409b1ec3af6cee58314">SecondLine</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="struct_adress.html#ac7c953e60a66389378e2f595f627d5c6">   65</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_adress.html#ac7c953e60a66389378e2f595f627d5c6">PostalCode</a>[7]; </div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="struct_adress.html#ae4591102b2de3f23767e22744f8657af">   66</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_adress.html#ae4591102b2de3f23767e22744f8657af">City</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;};</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="struct_email.html">   73</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_email.html">Email</a></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="struct_email.html#a6f3d81dd91d454574f66a73b28b1e988">   75</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_email.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="struct_email.html#a935d1854122a85c84ecbafa2bff9982e">   76</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_email.html#a935d1854122a85c84ecbafa2bff9982e">ID_Email</a>; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="struct_email.html#a99ceb9dee24f8b24032342c2549dec1e">   77</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_email.html#a99ceb9dee24f8b24032342c2549dec1e">ID_Contact</a>; </div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="struct_email.html#aa63cbdeb57a5b3db119b854832fe3e02">   78</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_email.html#aa63cbdeb57a5b3db119b854832fe3e02">Mail</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;};</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="struct_group.html">   85</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_group.html">Group</a></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="struct_group.html#a2b321736a2a89c810352a51c299c2e73">   87</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_group.html#a2b321736a2a89c810352a51c299c2e73">Owner</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="struct_group.html#a6f3d81dd91d454574f66a73b28b1e988">   88</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_group.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="struct_group.html#adc690f9056a69c6d91f8e45b2af01d28">   89</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_group.html#adc690f9056a69c6d91f8e45b2af01d28">ID_Group</a>; </div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="struct_group.html#a9562b0ca6a7b6bae4ccc625a851b4177">   90</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_group.html#a9562b0ca6a7b6bae4ccc625a851b4177">Name</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="struct_group.html#a44e207fc37351e8f3558f123324474f3">   91</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_group.html#a44e207fc37351e8f3558f123324474f3">Description</a>[<a class="code" href="globals_8h.html#abcf72cd23bdafb47b19023d91b4c107d">INPUT_SIZE</a>]; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;};</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="struct_relation.html">   98</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_relation.html">Relation</a></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="struct_relation.html#a6f3d81dd91d454574f66a73b28b1e988">  100</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_relation.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="struct_relation.html#a3e535abe48e881ba2e18e5b41d81fbda">  101</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_relation.html#a3e535abe48e881ba2e18e5b41d81fbda">ID_Relation</a>; </div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="struct_relation.html#a99ceb9dee24f8b24032342c2549dec1e">  102</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_relation.html#a99ceb9dee24f8b24032342c2549dec1e">ID_Contact</a>; </div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="struct_relation.html#adc690f9056a69c6d91f8e45b2af01d28">  103</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="struct_relation.html#adc690f9056a69c6d91f8e45b2af01d28">ID_Group</a>; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;};</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">#pragma endregion</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#pragma region globals</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="globals_8h.html#a3f4b6f6c4259ba832cd8e8ea6e33cf1b">  109</a></span>&#160;<span class="keywordtype">char</span> <a class="code" href="globals_8h.html#a3f4b6f6c4259ba832cd8e8ea6e33cf1b">LOGGED_USER</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="globals_8h.html#a7f44b7e5710e7babd2405fdcf88d6253">  111</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="globals_8h.html#a7f44b7e5710e7babd2405fdcf88d6253">isSaved</a>; </div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="struct_d_b.html">  117</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_d_b.html">DB</a></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;{</div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="struct_d_b.html#a022b2989e5cae4fa9ca492c79e797e32">  119</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#a022b2989e5cae4fa9ca492c79e797e32">users</a>; </div>
+<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="struct_d_b.html#ac9c870df07b853b8a836b5933d05a997">  120</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#ac9c870df07b853b8a836b5933d05a997">contacts</a>; </div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="struct_d_b.html#a62c2c34eaa1ec8a20c2755997a72ad08">  121</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#a62c2c34eaa1ec8a20c2755997a72ad08">phones</a>; </div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="struct_d_b.html#af826a49c7a2171bedd6672c46222a304">  122</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#af826a49c7a2171bedd6672c46222a304">emails</a>; </div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="struct_d_b.html#a57f17bdcae7c2ecdcf0b181311fd5b24">  123</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#a57f17bdcae7c2ecdcf0b181311fd5b24">adresses</a>; </div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="struct_d_b.html#a018bcba0987e08181f78c0bbd1c3514e">  124</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#a018bcba0987e08181f78c0bbd1c3514e">groups</a>; </div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="struct_d_b.html#a7ebe21c550650d140757f0e1aecf9e94">  125</a></span>&#160;    FILE* <a class="code" href="struct_d_b.html#a7ebe21c550650d140757f0e1aecf9e94">relations</a>; </div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="globals_8h.html#ab2acb2340a44ad6cb242c9e761e06aab">  126</a></span>&#160;} <a class="code" href="globals_8h.html#ab2acb2340a44ad6cb242c9e761e06aab">db</a>; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="struct_users.html">  132</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_users.html">Users</a></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{</div>
+<div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="struct_users.html#a74ef48180e621bd1ae0ba5f1a9db7e62">  134</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_users.html#a74ef48180e621bd1ae0ba5f1a9db7e62">login</a>[<a class="code" href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a>]; </div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="struct_users.html#a7e7c23133c20f82e3448efbcf39f2466">  135</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="struct_users.html#a7e7c23133c20f82e3448efbcf39f2466">hash</a>[33]; </div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="struct_users.html#a6f3d81dd91d454574f66a73b28b1e988">  136</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="struct_users.html#a6f3d81dd91d454574f66a73b28b1e988">toRemove</a>; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;};</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="globals_8h.html#a6e0d7cb943cf02306418ca6071851ea4">  139</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_users.html">Users</a>* <a class="code" href="globals_8h.html#a6e0d7cb943cf02306418ca6071851ea4">userList</a>; </div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="globals_8h.html#a23424c8ba4bf5c99fbb09f4d86787465">  140</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a23424c8ba4bf5c99fbb09f4d86787465">userCount</a>; </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="globals_8h.html#af295170d2bed4aaa98fafde3f9d14a9e">  142</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_contact.html">Contact</a>* <a class="code" href="globals_8h.html#af295170d2bed4aaa98fafde3f9d14a9e">contactList</a>; </div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="globals_8h.html#a2b46a4b1186b305f917a5517a261cae0">  143</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a2b46a4b1186b305f917a5517a261cae0">contactCount</a>; </div>
+<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="globals_8h.html#adec59a1f9be24271c68a5a7106711231">  144</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#adec59a1f9be24271c68a5a7106711231">contactLast</a>; </div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160; </div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="globals_8h.html#a072f6d4c2add4ab37d89fe2596b9fc6e">  146</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_phone.html">Phone</a>* <a class="code" href="globals_8h.html#a072f6d4c2add4ab37d89fe2596b9fc6e">phoneList</a>; </div>
+<div class="line"><a name="l00147"></a><span class="lineno"><a class="line" href="globals_8h.html#a119161bb84cebfe09af435e5db3ffb5e">  147</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a119161bb84cebfe09af435e5db3ffb5e">phoneCount</a>; </div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="globals_8h.html#a78c665f4efc9e24798f1753596cd042e">  148</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a78c665f4efc9e24798f1753596cd042e">phoneLast</a>; </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="globals_8h.html#a0030936006b34a1db2424251dd04f85d">  150</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_adress.html">Adress</a>* <a class="code" href="globals_8h.html#a0030936006b34a1db2424251dd04f85d">adressList</a>; </div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="globals_8h.html#a6044a182c7046546eccf41cbac854f26">  151</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a6044a182c7046546eccf41cbac854f26">adressCount</a>; </div>
+<div class="line"><a name="l00152"></a><span class="lineno"><a class="line" href="globals_8h.html#a8894bda12f2d1b2a2f83c8141cd00874">  152</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a8894bda12f2d1b2a2f83c8141cd00874">adressLast</a>; </div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00154"></a><span class="lineno"><a class="line" href="globals_8h.html#a4c478d81bbfb4350f3adb43b814f3a85">  154</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_email.html">Email</a>* <a class="code" href="globals_8h.html#a4c478d81bbfb4350f3adb43b814f3a85">emailList</a>; </div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="globals_8h.html#a3876b1cc4b483062056d9cf261ec4654">  155</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a3876b1cc4b483062056d9cf261ec4654">emailCount</a>; </div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="globals_8h.html#a1c7be1421bb35e62f4418935b3c59512">  156</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a1c7be1421bb35e62f4418935b3c59512">emailLast</a>; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="globals_8h.html#aefb91d03a0d2206dd2ee98c2b0cf3b8b">  158</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_group.html">Group</a>* <a class="code" href="globals_8h.html#aefb91d03a0d2206dd2ee98c2b0cf3b8b">groupList</a>; </div>
+<div class="line"><a name="l00159"></a><span class="lineno"><a class="line" href="globals_8h.html#a84cab9dc76cca8585c286b5284ca03f6">  159</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a84cab9dc76cca8585c286b5284ca03f6">groupCount</a>; </div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="globals_8h.html#a4d88d68fb868344ffdad946466e47fa8">  160</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a4d88d68fb868344ffdad946466e47fa8">groupLast</a>; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="globals_8h.html#a4e18ab2aab0fa751087d27ecc7718c8f">  162</a></span>&#160;<span class="keyword">struct </span><a class="code" href="struct_relation.html">Relation</a>* <a class="code" href="globals_8h.html#a4e18ab2aab0fa751087d27ecc7718c8f">relationList</a>; </div>
+<div class="line"><a name="l00163"></a><span class="lineno"><a class="line" href="globals_8h.html#ae12c495a1a52d905144d83f332b1ed92">  163</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#ae12c495a1a52d905144d83f332b1ed92">relationCount</a>; </div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="globals_8h.html#a01f6ce42cadf7c9509beb420bc32e0b4">  164</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="globals_8h.html#a01f6ce42cadf7c9509beb420bc32e0b4">relationLast</a>; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">#pragma endregion</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="acolors_8h_html"><div class="ttname"><a href="colors_8h.html">colors.h</a></div><div class="ttdoc">Plik nagłówkowy biblioteki ułatwiającej zmiany kolorów tekstu i tła.</div></div>
+<div class="ttc" id="afile__functions_8h_html"><div class="ttname"><a href="file__functions_8h.html">file_functions.h</a></div><div class="ttdoc">Plik nagłówkowy części programu odpowiedzialnej za zapis danych do plików.</div></div>
+<div class="ttc" id="aglobals_8h_html_a0030936006b34a1db2424251dd04f85d"><div class="ttname"><a href="globals_8h.html#a0030936006b34a1db2424251dd04f85d">adressList</a></div><div class="ttdeci">struct Adress * adressList</div><div class="ttdoc">Lista przechowująca adresy.</div><div class="ttdef"><b>Definition:</b> globals.h:150</div></div>
+<div class="ttc" id="aglobals_8h_html_a01f6ce42cadf7c9509beb420bc32e0b4"><div class="ttname"><a href="globals_8h.html#a01f6ce42cadf7c9509beb420bc32e0b4">relationLast</a></div><div class="ttdeci">int relationLast</div><div class="ttdoc">ID ostatniej relacji.</div><div class="ttdef"><b>Definition:</b> globals.h:164</div></div>
+<div class="ttc" id="aglobals_8h_html_a072f6d4c2add4ab37d89fe2596b9fc6e"><div class="ttname"><a href="globals_8h.html#a072f6d4c2add4ab37d89fe2596b9fc6e">phoneList</a></div><div class="ttdeci">struct Phone * phoneList</div><div class="ttdoc">Lista przechowująca telefony.</div><div class="ttdef"><b>Definition:</b> globals.h:146</div></div>
+<div class="ttc" id="aglobals_8h_html_a119161bb84cebfe09af435e5db3ffb5e"><div class="ttname"><a href="globals_8h.html#a119161bb84cebfe09af435e5db3ffb5e">phoneCount</a></div><div class="ttdeci">int phoneCount</div><div class="ttdoc">Ilość telefonów.</div><div class="ttdef"><b>Definition:</b> globals.h:147</div></div>
+<div class="ttc" id="aglobals_8h_html_a1c7be1421bb35e62f4418935b3c59512"><div class="ttname"><a href="globals_8h.html#a1c7be1421bb35e62f4418935b3c59512">emailLast</a></div><div class="ttdeci">int emailLast</div><div class="ttdoc">ID ostatniego e-maila.</div><div class="ttdef"><b>Definition:</b> globals.h:156</div></div>
+<div class="ttc" id="aglobals_8h_html_a23424c8ba4bf5c99fbb09f4d86787465"><div class="ttname"><a href="globals_8h.html#a23424c8ba4bf5c99fbb09f4d86787465">userCount</a></div><div class="ttdeci">int userCount</div><div class="ttdoc">Ilość użytkowników.</div><div class="ttdef"><b>Definition:</b> globals.h:140</div></div>
+<div class="ttc" id="aglobals_8h_html_a2b46a4b1186b305f917a5517a261cae0"><div class="ttname"><a href="globals_8h.html#a2b46a4b1186b305f917a5517a261cae0">contactCount</a></div><div class="ttdeci">int contactCount</div><div class="ttdoc">Ilość kontaktów.</div><div class="ttdef"><b>Definition:</b> globals.h:143</div></div>
+<div class="ttc" id="aglobals_8h_html_a3876b1cc4b483062056d9cf261ec4654"><div class="ttname"><a href="globals_8h.html#a3876b1cc4b483062056d9cf261ec4654">emailCount</a></div><div class="ttdeci">int emailCount</div><div class="ttdoc">Ilość e-maili.</div><div class="ttdef"><b>Definition:</b> globals.h:155</div></div>
+<div class="ttc" id="aglobals_8h_html_a3f4b6f6c4259ba832cd8e8ea6e33cf1b"><div class="ttname"><a href="globals_8h.html#a3f4b6f6c4259ba832cd8e8ea6e33cf1b">LOGGED_USER</a></div><div class="ttdeci">char LOGGED_USER[ENTRY_SIZE]</div><div class="ttdoc">Nazwa zalogowanego użytkownika.</div><div class="ttdef"><b>Definition:</b> globals.h:109</div></div>
+<div class="ttc" id="aglobals_8h_html_a4c478d81bbfb4350f3adb43b814f3a85"><div class="ttname"><a href="globals_8h.html#a4c478d81bbfb4350f3adb43b814f3a85">emailList</a></div><div class="ttdeci">struct Email * emailList</div><div class="ttdoc">Lista przechowująca e-maile.</div><div class="ttdef"><b>Definition:</b> globals.h:154</div></div>
+<div class="ttc" id="aglobals_8h_html_a4d88d68fb868344ffdad946466e47fa8"><div class="ttname"><a href="globals_8h.html#a4d88d68fb868344ffdad946466e47fa8">groupLast</a></div><div class="ttdeci">int groupLast</div><div class="ttdoc">ID ostatniej grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:160</div></div>
+<div class="ttc" id="aglobals_8h_html_a4e18ab2aab0fa751087d27ecc7718c8f"><div class="ttname"><a href="globals_8h.html#a4e18ab2aab0fa751087d27ecc7718c8f">relationList</a></div><div class="ttdeci">struct Relation * relationList</div><div class="ttdoc">Lista przechowująca relacje.</div><div class="ttdef"><b>Definition:</b> globals.h:162</div></div>
+<div class="ttc" id="aglobals_8h_html_a6044a182c7046546eccf41cbac854f26"><div class="ttname"><a href="globals_8h.html#a6044a182c7046546eccf41cbac854f26">adressCount</a></div><div class="ttdeci">int adressCount</div><div class="ttdoc">Ilość adresów.</div><div class="ttdef"><b>Definition:</b> globals.h:151</div></div>
+<div class="ttc" id="aglobals_8h_html_a6e0d7cb943cf02306418ca6071851ea4"><div class="ttname"><a href="globals_8h.html#a6e0d7cb943cf02306418ca6071851ea4">userList</a></div><div class="ttdeci">struct Users * userList</div><div class="ttdoc">Lista przechowująca użytkowników.</div><div class="ttdef"><b>Definition:</b> globals.h:139</div></div>
+<div class="ttc" id="aglobals_8h_html_a78c665f4efc9e24798f1753596cd042e"><div class="ttname"><a href="globals_8h.html#a78c665f4efc9e24798f1753596cd042e">phoneLast</a></div><div class="ttdeci">int phoneLast</div><div class="ttdoc">ID ostatniego telefonu.</div><div class="ttdef"><b>Definition:</b> globals.h:148</div></div>
+<div class="ttc" id="aglobals_8h_html_a7f44b7e5710e7babd2405fdcf88d6253"><div class="ttname"><a href="globals_8h.html#a7f44b7e5710e7babd2405fdcf88d6253">isSaved</a></div><div class="ttdeci">bool isSaved</div><div class="ttdoc">Flaga czy zapisano.</div><div class="ttdef"><b>Definition:</b> globals.h:111</div></div>
+<div class="ttc" id="aglobals_8h_html_a84a55b954a9d270664ddcdf4c3780ff3"><div class="ttname"><a href="globals_8h.html#a84a55b954a9d270664ddcdf4c3780ff3">ENTRY_SIZE</a></div><div class="ttdeci">#define ENTRY_SIZE</div><div class="ttdoc">Maksymalny rozmiar pola.</div><div class="ttdef"><b>Definition:</b> globals.h:24</div></div>
+<div class="ttc" id="aglobals_8h_html_a84cab9dc76cca8585c286b5284ca03f6"><div class="ttname"><a href="globals_8h.html#a84cab9dc76cca8585c286b5284ca03f6">groupCount</a></div><div class="ttdeci">int groupCount</div><div class="ttdoc">Ilość grup.</div><div class="ttdef"><b>Definition:</b> globals.h:159</div></div>
+<div class="ttc" id="aglobals_8h_html_a8894bda12f2d1b2a2f83c8141cd00874"><div class="ttname"><a href="globals_8h.html#a8894bda12f2d1b2a2f83c8141cd00874">adressLast</a></div><div class="ttdeci">int adressLast</div><div class="ttdoc">ID ostatniego adresu.</div><div class="ttdef"><b>Definition:</b> globals.h:152</div></div>
+<div class="ttc" id="aglobals_8h_html_ab2acb2340a44ad6cb242c9e761e06aab"><div class="ttname"><a href="globals_8h.html#ab2acb2340a44ad6cb242c9e761e06aab">db</a></div><div class="ttdeci">struct DB db</div><div class="ttdoc">Obiekt struktury DB.</div></div>
+<div class="ttc" id="aglobals_8h_html_abcf72cd23bdafb47b19023d91b4c107d"><div class="ttname"><a href="globals_8h.html#abcf72cd23bdafb47b19023d91b4c107d">INPUT_SIZE</a></div><div class="ttdeci">#define INPUT_SIZE</div><div class="ttdoc">Maksymalny rozmiar wejścia.</div><div class="ttdef"><b>Definition:</b> globals.h:23</div></div>
+<div class="ttc" id="aglobals_8h_html_adec59a1f9be24271c68a5a7106711231"><div class="ttname"><a href="globals_8h.html#adec59a1f9be24271c68a5a7106711231">contactLast</a></div><div class="ttdeci">int contactLast</div><div class="ttdoc">ID ostatniego kontaktu.</div><div class="ttdef"><b>Definition:</b> globals.h:144</div></div>
+<div class="ttc" id="aglobals_8h_html_ae12c495a1a52d905144d83f332b1ed92"><div class="ttname"><a href="globals_8h.html#ae12c495a1a52d905144d83f332b1ed92">relationCount</a></div><div class="ttdeci">int relationCount</div><div class="ttdoc">Ilość relacji.</div><div class="ttdef"><b>Definition:</b> globals.h:163</div></div>
+<div class="ttc" id="aglobals_8h_html_aefb91d03a0d2206dd2ee98c2b0cf3b8b"><div class="ttname"><a href="globals_8h.html#aefb91d03a0d2206dd2ee98c2b0cf3b8b">groupList</a></div><div class="ttdeci">struct Group * groupList</div><div class="ttdoc">Lista przechowująca grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:158</div></div>
+<div class="ttc" id="aglobals_8h_html_af295170d2bed4aaa98fafde3f9d14a9e"><div class="ttname"><a href="globals_8h.html#af295170d2bed4aaa98fafde3f9d14a9e">contactList</a></div><div class="ttdeci">struct Contact * contactList</div><div class="ttdoc">Lista przechowująca kontakty.</div><div class="ttdef"><b>Definition:</b> globals.h:142</div></div>
+<div class="ttc" id="aloop_8h_html"><div class="ttname"><a href="loop_8h.html">loop.h</a></div><div class="ttdoc">Plik nagłówkowy części programu odpowiedzialnej za obsługę poleceń wywoływanych w głównej pętli.</div></div>
+<div class="ttc" id="amd5_8h_html"><div class="ttname"><a href="md5_8h.html">md5.h</a></div><div class="ttdoc">Plik nagłówkowy biblioteki obliczającej sumę kontrolną MD5.</div></div>
+<div class="ttc" id="amisc_8h_html"><div class="ttname"><a href="misc_8h.html">misc.h</a></div><div class="ttdoc">Plik nagłówkowy części programu zawierającej wszelkie funkcje pomocnicze.</div></div>
+<div class="ttc" id="astruct_adress_html"><div class="ttname"><a href="struct_adress.html">Adress</a></div><div class="ttdoc">Struktura adresu.</div><div class="ttdef"><b>Definition:</b> globals.h:59</div></div>
+<div class="ttc" id="astruct_adress_html_a3ba2bb969529d7c399e59f5e26e62b11"><div class="ttname"><a href="struct_adress.html#a3ba2bb969529d7c399e59f5e26e62b11">Adress::FirstLine</a></div><div class="ttdeci">char FirstLine[ENTRY_SIZE]</div><div class="ttdoc">Pole pierwsza linijka adresu.</div><div class="ttdef"><b>Definition:</b> globals.h:63</div></div>
+<div class="ttc" id="astruct_adress_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_adress.html#a6f3d81dd91d454574f66a73b28b1e988">Adress::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:60</div></div>
+<div class="ttc" id="astruct_adress_html_a81a07ed596b9f224dd40e9e2728c4584"><div class="ttname"><a href="struct_adress.html#a81a07ed596b9f224dd40e9e2728c4584">Adress::ID_Adress</a></div><div class="ttdeci">unsigned int ID_Adress</div><div class="ttdoc">ID Adresu.</div><div class="ttdef"><b>Definition:</b> globals.h:61</div></div>
+<div class="ttc" id="astruct_adress_html_a99ceb9dee24f8b24032342c2549dec1e"><div class="ttname"><a href="struct_adress.html#a99ceb9dee24f8b24032342c2549dec1e">Adress::ID_Contact</a></div><div class="ttdeci">unsigned int ID_Contact</div><div class="ttdoc">ID kontaktu do którego należy adres.</div><div class="ttdef"><b>Definition:</b> globals.h:62</div></div>
+<div class="ttc" id="astruct_adress_html_ac7c953e60a66389378e2f595f627d5c6"><div class="ttname"><a href="struct_adress.html#ac7c953e60a66389378e2f595f627d5c6">Adress::PostalCode</a></div><div class="ttdeci">char PostalCode[7]</div><div class="ttdoc">Pole kod pocztowy.</div><div class="ttdef"><b>Definition:</b> globals.h:65</div></div>
+<div class="ttc" id="astruct_adress_html_ad9892a088b375409b1ec3af6cee58314"><div class="ttname"><a href="struct_adress.html#ad9892a088b375409b1ec3af6cee58314">Adress::SecondLine</a></div><div class="ttdeci">char SecondLine[ENTRY_SIZE]</div><div class="ttdoc">Pole druga linijka adresu.</div><div class="ttdef"><b>Definition:</b> globals.h:64</div></div>
+<div class="ttc" id="astruct_adress_html_ae4591102b2de3f23767e22744f8657af"><div class="ttname"><a href="struct_adress.html#ae4591102b2de3f23767e22744f8657af">Adress::City</a></div><div class="ttdeci">char City[ENTRY_SIZE]</div><div class="ttdoc">Pole miasto.</div><div class="ttdef"><b>Definition:</b> globals.h:66</div></div>
+<div class="ttc" id="astruct_contact_html"><div class="ttname"><a href="struct_contact.html">Contact</a></div><div class="ttdoc">Struktura kontaktu.</div><div class="ttdef"><b>Definition:</b> globals.h:33</div></div>
+<div class="ttc" id="astruct_contact_html_a2b321736a2a89c810352a51c299c2e73"><div class="ttname"><a href="struct_contact.html#a2b321736a2a89c810352a51c299c2e73">Contact::Owner</a></div><div class="ttdeci">char Owner[ENTRY_SIZE]</div><div class="ttdoc">Właściciel kontaktu.</div><div class="ttdef"><b>Definition:</b> globals.h:34</div></div>
+<div class="ttc" id="astruct_contact_html_a44e207fc37351e8f3558f123324474f3"><div class="ttname"><a href="struct_contact.html#a44e207fc37351e8f3558f123324474f3">Contact::Description</a></div><div class="ttdeci">char Description[INPUT_SIZE]</div><div class="ttdoc">Pole opis.</div><div class="ttdef"><b>Definition:</b> globals.h:39</div></div>
+<div class="ttc" id="astruct_contact_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_contact.html#a6f3d81dd91d454574f66a73b28b1e988">Contact::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:35</div></div>
+<div class="ttc" id="astruct_contact_html_a9562b0ca6a7b6bae4ccc625a851b4177"><div class="ttname"><a href="struct_contact.html#a9562b0ca6a7b6bae4ccc625a851b4177">Contact::Name</a></div><div class="ttdeci">char Name[ENTRY_SIZE]</div><div class="ttdoc">Pole imię</div><div class="ttdef"><b>Definition:</b> globals.h:37</div></div>
+<div class="ttc" id="astruct_contact_html_a99ceb9dee24f8b24032342c2549dec1e"><div class="ttname"><a href="struct_contact.html#a99ceb9dee24f8b24032342c2549dec1e">Contact::ID_Contact</a></div><div class="ttdeci">unsigned int ID_Contact</div><div class="ttdoc">ID kontaktu.</div><div class="ttdef"><b>Definition:</b> globals.h:36</div></div>
+<div class="ttc" id="astruct_contact_html_ae4823c02279e0e0ea1d2b00ec328ab23"><div class="ttname"><a href="struct_contact.html#ae4823c02279e0e0ea1d2b00ec328ab23">Contact::Surname</a></div><div class="ttdeci">char Surname[ENTRY_SIZE]</div><div class="ttdoc">Pole nazwisko.</div><div class="ttdef"><b>Definition:</b> globals.h:38</div></div>
+<div class="ttc" id="astruct_d_b_html"><div class="ttname"><a href="struct_d_b.html">DB</a></div><div class="ttdoc">Struktura zawierająca wskaźniki na poszczególne pliki w bazie.</div><div class="ttdef"><b>Definition:</b> globals.h:118</div></div>
+<div class="ttc" id="astruct_d_b_html_a018bcba0987e08181f78c0bbd1c3514e"><div class="ttname"><a href="struct_d_b.html#a018bcba0987e08181f78c0bbd1c3514e">DB::groups</a></div><div class="ttdeci">FILE * groups</div><div class="ttdoc">Plik z grupami.</div><div class="ttdef"><b>Definition:</b> globals.h:124</div></div>
+<div class="ttc" id="astruct_d_b_html_a022b2989e5cae4fa9ca492c79e797e32"><div class="ttname"><a href="struct_d_b.html#a022b2989e5cae4fa9ca492c79e797e32">DB::users</a></div><div class="ttdeci">FILE * users</div><div class="ttdoc">Plik z użytkownikami.</div><div class="ttdef"><b>Definition:</b> globals.h:119</div></div>
+<div class="ttc" id="astruct_d_b_html_a57f17bdcae7c2ecdcf0b181311fd5b24"><div class="ttname"><a href="struct_d_b.html#a57f17bdcae7c2ecdcf0b181311fd5b24">DB::adresses</a></div><div class="ttdeci">FILE * adresses</div><div class="ttdoc">Plik z adresami.</div><div class="ttdef"><b>Definition:</b> globals.h:123</div></div>
+<div class="ttc" id="astruct_d_b_html_a62c2c34eaa1ec8a20c2755997a72ad08"><div class="ttname"><a href="struct_d_b.html#a62c2c34eaa1ec8a20c2755997a72ad08">DB::phones</a></div><div class="ttdeci">FILE * phones</div><div class="ttdoc">Plik z telefonami.</div><div class="ttdef"><b>Definition:</b> globals.h:121</div></div>
+<div class="ttc" id="astruct_d_b_html_a7ebe21c550650d140757f0e1aecf9e94"><div class="ttname"><a href="struct_d_b.html#a7ebe21c550650d140757f0e1aecf9e94">DB::relations</a></div><div class="ttdeci">FILE * relations</div><div class="ttdoc">Plik z relacjami.</div><div class="ttdef"><b>Definition:</b> globals.h:125</div></div>
+<div class="ttc" id="astruct_d_b_html_ac9c870df07b853b8a836b5933d05a997"><div class="ttname"><a href="struct_d_b.html#ac9c870df07b853b8a836b5933d05a997">DB::contacts</a></div><div class="ttdeci">FILE * contacts</div><div class="ttdoc">Plik z kontaktami.</div><div class="ttdef"><b>Definition:</b> globals.h:120</div></div>
+<div class="ttc" id="astruct_d_b_html_af826a49c7a2171bedd6672c46222a304"><div class="ttname"><a href="struct_d_b.html#af826a49c7a2171bedd6672c46222a304">DB::emails</a></div><div class="ttdeci">FILE * emails</div><div class="ttdoc">Plik z e-mailami.</div><div class="ttdef"><b>Definition:</b> globals.h:122</div></div>
+<div class="ttc" id="astruct_email_html"><div class="ttname"><a href="struct_email.html">Email</a></div><div class="ttdoc">Struktura e-mailu.</div><div class="ttdef"><b>Definition:</b> globals.h:74</div></div>
+<div class="ttc" id="astruct_email_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_email.html#a6f3d81dd91d454574f66a73b28b1e988">Email::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:75</div></div>
+<div class="ttc" id="astruct_email_html_a935d1854122a85c84ecbafa2bff9982e"><div class="ttname"><a href="struct_email.html#a935d1854122a85c84ecbafa2bff9982e">Email::ID_Email</a></div><div class="ttdeci">unsigned int ID_Email</div><div class="ttdoc">ID E-mailu.</div><div class="ttdef"><b>Definition:</b> globals.h:76</div></div>
+<div class="ttc" id="astruct_email_html_a99ceb9dee24f8b24032342c2549dec1e"><div class="ttname"><a href="struct_email.html#a99ceb9dee24f8b24032342c2549dec1e">Email::ID_Contact</a></div><div class="ttdeci">unsigned int ID_Contact</div><div class="ttdoc">ID kontaktu do którego należy e-mail.</div><div class="ttdef"><b>Definition:</b> globals.h:77</div></div>
+<div class="ttc" id="astruct_email_html_aa63cbdeb57a5b3db119b854832fe3e02"><div class="ttname"><a href="struct_email.html#aa63cbdeb57a5b3db119b854832fe3e02">Email::Mail</a></div><div class="ttdeci">char Mail[ENTRY_SIZE]</div><div class="ttdoc">Pole e-mail.</div><div class="ttdef"><b>Definition:</b> globals.h:78</div></div>
+<div class="ttc" id="astruct_group_html"><div class="ttname"><a href="struct_group.html">Group</a></div><div class="ttdoc">Struktura grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:86</div></div>
+<div class="ttc" id="astruct_group_html_a2b321736a2a89c810352a51c299c2e73"><div class="ttname"><a href="struct_group.html#a2b321736a2a89c810352a51c299c2e73">Group::Owner</a></div><div class="ttdeci">char Owner[ENTRY_SIZE]</div><div class="ttdoc">Właściciel grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:87</div></div>
+<div class="ttc" id="astruct_group_html_a44e207fc37351e8f3558f123324474f3"><div class="ttname"><a href="struct_group.html#a44e207fc37351e8f3558f123324474f3">Group::Description</a></div><div class="ttdeci">char Description[INPUT_SIZE]</div><div class="ttdoc">Pole opis.</div><div class="ttdef"><b>Definition:</b> globals.h:91</div></div>
+<div class="ttc" id="astruct_group_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_group.html#a6f3d81dd91d454574f66a73b28b1e988">Group::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:88</div></div>
+<div class="ttc" id="astruct_group_html_a9562b0ca6a7b6bae4ccc625a851b4177"><div class="ttname"><a href="struct_group.html#a9562b0ca6a7b6bae4ccc625a851b4177">Group::Name</a></div><div class="ttdeci">char Name[ENTRY_SIZE]</div><div class="ttdoc">Pole nazwa.</div><div class="ttdef"><b>Definition:</b> globals.h:90</div></div>
+<div class="ttc" id="astruct_group_html_adc690f9056a69c6d91f8e45b2af01d28"><div class="ttname"><a href="struct_group.html#adc690f9056a69c6d91f8e45b2af01d28">Group::ID_Group</a></div><div class="ttdeci">unsigned int ID_Group</div><div class="ttdoc">ID grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:89</div></div>
+<div class="ttc" id="astruct_phone_html"><div class="ttname"><a href="struct_phone.html">Phone</a></div><div class="ttdoc">Struktura telefonu.</div><div class="ttdef"><b>Definition:</b> globals.h:47</div></div>
+<div class="ttc" id="astruct_phone_html_a1286ac8f7e417f5a94f83379e6d53356"><div class="ttname"><a href="struct_phone.html#a1286ac8f7e417f5a94f83379e6d53356">Phone::ID_Phone</a></div><div class="ttdeci">unsigned int ID_Phone</div><div class="ttdoc">ID telefonu.</div><div class="ttdef"><b>Definition:</b> globals.h:49</div></div>
+<div class="ttc" id="astruct_phone_html_a6e045b1ac71e1741173b9e29f889d569"><div class="ttname"><a href="struct_phone.html#a6e045b1ac71e1741173b9e29f889d569">Phone::Number</a></div><div class="ttdeci">char Number[10]</div><div class="ttdoc">Pole numer telefonu.</div><div class="ttdef"><b>Definition:</b> globals.h:51</div></div>
+<div class="ttc" id="astruct_phone_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_phone.html#a6f3d81dd91d454574f66a73b28b1e988">Phone::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:48</div></div>
+<div class="ttc" id="astruct_phone_html_a99ceb9dee24f8b24032342c2549dec1e"><div class="ttname"><a href="struct_phone.html#a99ceb9dee24f8b24032342c2549dec1e">Phone::ID_Contact</a></div><div class="ttdeci">unsigned int ID_Contact</div><div class="ttdoc">ID kontaktu do którego należy telefon.</div><div class="ttdef"><b>Definition:</b> globals.h:50</div></div>
+<div class="ttc" id="astruct_relation_html"><div class="ttname"><a href="struct_relation.html">Relation</a></div><div class="ttdoc">Struktura relacji.</div><div class="ttdef"><b>Definition:</b> globals.h:99</div></div>
+<div class="ttc" id="astruct_relation_html_a3e535abe48e881ba2e18e5b41d81fbda"><div class="ttname"><a href="struct_relation.html#a3e535abe48e881ba2e18e5b41d81fbda">Relation::ID_Relation</a></div><div class="ttdeci">unsigned int ID_Relation</div><div class="ttdoc">ID relacji.</div><div class="ttdef"><b>Definition:</b> globals.h:101</div></div>
+<div class="ttc" id="astruct_relation_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_relation.html#a6f3d81dd91d454574f66a73b28b1e988">Relation::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:100</div></div>
+<div class="ttc" id="astruct_relation_html_a99ceb9dee24f8b24032342c2549dec1e"><div class="ttname"><a href="struct_relation.html#a99ceb9dee24f8b24032342c2549dec1e">Relation::ID_Contact</a></div><div class="ttdeci">unsigned int ID_Contact</div><div class="ttdoc">ID kontaktu.</div><div class="ttdef"><b>Definition:</b> globals.h:102</div></div>
+<div class="ttc" id="astruct_relation_html_adc690f9056a69c6d91f8e45b2af01d28"><div class="ttname"><a href="struct_relation.html#adc690f9056a69c6d91f8e45b2af01d28">Relation::ID_Group</a></div><div class="ttdeci">unsigned int ID_Group</div><div class="ttdoc">ID grupy.</div><div class="ttdef"><b>Definition:</b> globals.h:103</div></div>
+<div class="ttc" id="astruct_users_html"><div class="ttname"><a href="struct_users.html">Users</a></div><div class="ttdoc">Struktura użytkownika.</div><div class="ttdef"><b>Definition:</b> globals.h:133</div></div>
+<div class="ttc" id="astruct_users_html_a6f3d81dd91d454574f66a73b28b1e988"><div class="ttname"><a href="struct_users.html#a6f3d81dd91d454574f66a73b28b1e988">Users::toRemove</a></div><div class="ttdeci">bool toRemove</div><div class="ttdoc">Flaga do usunięcia.</div><div class="ttdef"><b>Definition:</b> globals.h:136</div></div>
+<div class="ttc" id="astruct_users_html_a74ef48180e621bd1ae0ba5f1a9db7e62"><div class="ttname"><a href="struct_users.html#a74ef48180e621bd1ae0ba5f1a9db7e62">Users::login</a></div><div class="ttdeci">char login[ENTRY_SIZE]</div><div class="ttdoc">Pole login.</div><div class="ttdef"><b>Definition:</b> globals.h:134</div></div>
+<div class="ttc" id="astruct_users_html_a7e7c23133c20f82e3448efbcf39f2466"><div class="ttname"><a href="struct_users.html#a7e7c23133c20f82e3448efbcf39f2466">Users::hash</a></div><div class="ttdeci">char hash[33]</div><div class="ttdoc">Pole suma kontrolna MD5 hasła.</div><div class="ttdef"><b>Definition:</b> globals.h:135</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

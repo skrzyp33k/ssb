@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSB: Dokumentacja pliku SSB_ref_v2/md5.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SSB
+   &#160;<span id="projectnumber">2.3</span>
+   </div>
+   <div id="projectbrief">Skrzypek&#39;s &amp; Sokół&#39;s contacts Base</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2a461184b69a50f5637f66dcdfee4465.html">SSB_ref_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Struktury danych</a> &#124;
+<a href="#typedef-members">Definicje typów</a> &#124;
+<a href="#func-members">Funkcje</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja pliku md5.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Plik nagłówkowy biblioteki obliczającej sumę kontrolną MD5.  
+<a href="#details">Więcej...</a></p>
+<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+</div>
+<p><a href="md5_8h_source.html">Idź do kodu źródłowego tego pliku.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Struktury danych</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionuwb.html">uwb</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struktura pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="unionuwb.html#details">Więcej...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Definicje typów</h2></td></tr>
+<tr class="memitem:a806e0d93aae7cf613a232f2349f775a3"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="unionuwb.html">uwb</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">MD5union</a></td></tr>
+<tr class="memdesc:a806e0d93aae7cf613a232f2349f775a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struktura pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">Więcej...</a><br /></td></tr>
+<tr class="separator:a806e0d93aae7cf613a232f2349f775a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14e2f3cc779c27ca1389748d3c576f7"><td class="memItemLeft" align="right" valign="top">typedef unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#aa14e2f3cc779c27ca1389748d3c576f7">DigestArray</a>[4]</td></tr>
+<tr class="memdesc:aa14e2f3cc779c27ca1389748d3c576f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicja tablicy 4 zmiennych typu unsigned.  <a href="md5_8h.html#aa14e2f3cc779c27ca1389748d3c576f7">Więcej...</a><br /></td></tr>
+<tr class="separator:aa14e2f3cc779c27ca1389748d3c576f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bca7f42d8cb1c857d0348fe24b1126"><td class="memItemLeft" align="right" valign="top">typedef unsigned(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#a96bca7f42d8cb1c857d0348fe24b1126">DgstFctn</a>) (unsigned a[])</td></tr>
+<tr class="memdesc:a96bca7f42d8cb1c857d0348fe24b1126"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definicja wskaźnika na funkcje potrzebną do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#a96bca7f42d8cb1c857d0348fe24b1126">Więcej...</a><br /></td></tr>
+<tr class="separator:a96bca7f42d8cb1c857d0348fe24b1126"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funkcje</h2></td></tr>
+<tr class="memitem:a1db72d9e3e33863e52a2b30111a01057"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#a1db72d9e3e33863e52a2b30111a01057">func0</a> (unsigned abcd[])</td></tr>
+<tr class="memdesc:a1db72d9e3e33863e52a2b30111a01057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#a1db72d9e3e33863e52a2b30111a01057">Więcej...</a><br /></td></tr>
+<tr class="separator:a1db72d9e3e33863e52a2b30111a01057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc9178dd2f7db32d5ab7c0d8515281f"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#afdc9178dd2f7db32d5ab7c0d8515281f">func1</a> (unsigned abcd[])</td></tr>
+<tr class="memdesc:afdc9178dd2f7db32d5ab7c0d8515281f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#afdc9178dd2f7db32d5ab7c0d8515281f">Więcej...</a><br /></td></tr>
+<tr class="separator:afdc9178dd2f7db32d5ab7c0d8515281f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af77e695fb134f8cbed5403a19afda3f0"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#af77e695fb134f8cbed5403a19afda3f0">func2</a> (unsigned abcd[])</td></tr>
+<tr class="memdesc:af77e695fb134f8cbed5403a19afda3f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#af77e695fb134f8cbed5403a19afda3f0">Więcej...</a><br /></td></tr>
+<tr class="separator:af77e695fb134f8cbed5403a19afda3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab23a5b53611578ffe91a7e2bfea4d022"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#ab23a5b53611578ffe91a7e2bfea4d022">func3</a> (unsigned abcd[])</td></tr>
+<tr class="memdesc:ab23a5b53611578ffe91a7e2bfea4d022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#ab23a5b53611578ffe91a7e2bfea4d022">Więcej...</a><br /></td></tr>
+<tr class="separator:ab23a5b53611578ffe91a7e2bfea4d022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03908e0722c82aa21a23587add9583d"><td class="memItemLeft" align="right" valign="top">unsigned *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#ad03908e0722c82aa21a23587add9583d">calctable</a> (unsigned *k)</td></tr>
+<tr class="memdesc:ad03908e0722c82aa21a23587add9583d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#ad03908e0722c82aa21a23587add9583d">Więcej...</a><br /></td></tr>
+<tr class="separator:ad03908e0722c82aa21a23587add9583d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949bc524787e4f189647754cccf95baa"><td class="memItemLeft" align="right" valign="top">unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#a949bc524787e4f189647754cccf95baa">rol</a> (unsigned r, short N)</td></tr>
+<tr class="memdesc:a949bc524787e4f189647754cccf95baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.  <a href="md5_8h.html#a949bc524787e4f189647754cccf95baa">Więcej...</a><br /></td></tr>
+<tr class="separator:a949bc524787e4f189647754cccf95baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea9f4352ea083a103ba8a1dea0a23ae7"><td class="memItemLeft" align="right" valign="top">unsigned *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#aea9f4352ea083a103ba8a1dea0a23ae7">Algorithms_Hash_MD5</a> (const char *msg, int mlen)</td></tr>
+<tr class="memdesc:aea9f4352ea083a103ba8a1dea0a23ae7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja obliczająca sumę kontrolną MD5.  <a href="md5_8h.html#aea9f4352ea083a103ba8a1dea0a23ae7">Więcej...</a><br /></td></tr>
+<tr class="separator:aea9f4352ea083a103ba8a1dea0a23ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea743a5c72053d2c6c607aa627a86d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="md5_8h.html#acea743a5c72053d2c6c607aa627a86d3">GetMD5String</a> (const char *msg, char *out)</td></tr>
+<tr class="memdesc:acea743a5c72053d2c6c607aa627a86d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funkcja wywołująca funkcje obliczającą sumę kontrolną MD5 i zapisująca we wskaźniku sumę kontrolną MD5 z podanego ciągu znaków.  <a href="md5_8h.html#acea743a5c72053d2c6c607aa627a86d3">Więcej...</a><br /></td></tr>
+<tr class="separator:acea743a5c72053d2c6c607aa627a86d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p>Plik nagłówkowy biblioteki obliczającej sumę kontrolną MD5. </p>
+</div><h2 class="groupheader">Dokumentacja definicji typów</h2>
+<a id="a96bca7f42d8cb1c857d0348fe24b1126"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96bca7f42d8cb1c857d0348fe24b1126">&#9670;&nbsp;</a></span>DgstFctn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned(* DgstFctn) (unsigned a[])</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja wskaźnika na funkcje potrzebną do obliczenia sumy kontrolnej MD5. </p>
+
+</div>
+</div>
+<a id="aa14e2f3cc779c27ca1389748d3c576f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa14e2f3cc779c27ca1389748d3c576f7">&#9670;&nbsp;</a></span>DigestArray</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned DigestArray[4]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definicja tablicy 4 zmiennych typu unsigned. </p>
+
+</div>
+</div>
+<a id="a806e0d93aae7cf613a232f2349f775a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a806e0d93aae7cf613a232f2349f775a3">&#9670;&nbsp;</a></span>MD5union</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef union <a class="el" href="unionuwb.html">uwb</a> <a class="el" href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">MD5union</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Struktura pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji</h2>
+<a id="aea9f4352ea083a103ba8a1dea0a23ae7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea9f4352ea083a103ba8a1dea0a23ae7">&#9670;&nbsp;</a></span>Algorithms_Hash_MD5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned* Algorithms_Hash_MD5 </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mlen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja obliczająca sumę kontrolną MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>- ciąg znaków z którego obliczona będzie suma kontrolna </td></tr>
+    <tr><td class="paramname">mlen</td><td>- długość ciągu znaków </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>suma kontrolna MD5 </dd></dl>
+
+</div>
+</div>
+<a id="ad03908e0722c82aa21a23587add9583d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad03908e0722c82aa21a23587add9583d">&#9670;&nbsp;</a></span>calctable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned* calctable </td>
+          <td>(</td>
+          <td class="paramtype">unsigned *&#160;</td>
+          <td class="paramname"><em>k</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">k</td><td>- wskaźnik na zmienną typu unsigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wskaźnik na zmienną typu unsigned </dd></dl>
+
+</div>
+</div>
+<a id="a1db72d9e3e33863e52a2b30111a01057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db72d9e3e33863e52a2b30111a01057">&#9670;&nbsp;</a></span>func0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned func0 </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>abcd</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">abcd[]</td><td>- tablica zmiennych typu unsigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wartość powstała przez wykonane operacje logiczne na liczbach przekazanych jako parametr </dd></dl>
+
+</div>
+</div>
+<a id="afdc9178dd2f7db32d5ab7c0d8515281f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc9178dd2f7db32d5ab7c0d8515281f">&#9670;&nbsp;</a></span>func1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned func1 </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>abcd</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">abcd[]</td><td>- tablica zmiennych typu unsigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wartość powstała przez wykonane operacje logiczne na liczbach przekazanych jako parametr </dd></dl>
+
+</div>
+</div>
+<a id="af77e695fb134f8cbed5403a19afda3f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af77e695fb134f8cbed5403a19afda3f0">&#9670;&nbsp;</a></span>func2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned func2 </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>abcd</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">abcd[]</td><td>- tablica zmiennych typu unsigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wartość powstała przez wykonane operacje logiczne na liczbach przekazanych jako parametr </dd></dl>
+
+</div>
+</div>
+<a id="ab23a5b53611578ffe91a7e2bfea4d022"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23a5b53611578ffe91a7e2bfea4d022">&#9670;&nbsp;</a></span>func3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned func3 </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>abcd</em>[]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">abcd[]</td><td>- tablica zmiennych typu unsigned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>wartość powstała przez wykonane operacje logiczne na liczbach przekazanych jako parametr </dd></dl>
+
+</div>
+</div>
+<a id="acea743a5c72053d2c6c607aa627a86d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acea743a5c72053d2c6c607aa627a86d3">&#9670;&nbsp;</a></span>GetMD5String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GetMD5String </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>out</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja wywołująca funkcje obliczającą sumę kontrolną MD5 i zapisująca we wskaźniku sumę kontrolną MD5 z podanego ciągu znaków. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">msg</td><td>- ciąg znaków z którego obliczona będzie suma kontrolna </td></tr>
+    <tr><td class="paramname">out</td><td>- wskaźnik w którym zapisana będzie suma kontrolna </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Zobacz również</dt><dd><a class="el" href="md5_8h.html#aea9f4352ea083a103ba8a1dea0a23ae7" title="Funkcja obliczająca sumę kontrolną MD5.">Algorithms_Hash_MD5()</a> </dd></dl>
+
+</div>
+</div>
+<a id="a949bc524787e4f189647754cccf95baa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949bc524787e4f189647754cccf95baa">&#9670;&nbsp;</a></span>rol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned rol </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>r</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">short&#160;</td>
+          <td class="paramname"><em>N</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>- zmienna typu unsigned </td></tr>
+    <tr><td class="paramname">N</td><td>- zmienna typu short </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Zwraca</dt><dd>zmienna typu unsigned </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

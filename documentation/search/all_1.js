@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['b_12',['b',['../unionuwb.html#a61a5d0fa7c6684d64d4709fbec39695a',1,'uwb']]],
+  ['background_13',['BackGround',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380',1,'colors.h']]],
+  ['bg_5fblack_14',['bg_Black',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380ab05924a382bab431de5950fd247ec87d',1,'colors.h']]],
+  ['bg_5fblue_15',['bg_Blue',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a0ba61de2dcf041b50e3bf0cf12fcfaed',1,'colors.h']]],
+  ['bg_5fcyan_16',['bg_Cyan',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a2e565c2e88520beb5fc6a18311f3f062',1,'colors.h']]],
+  ['bg_5fgold_17',['bg_Gold',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a3fbc960d0b4263b375a6a340d84b0fea',1,'colors.h']]],
+  ['bg_5fgreen_18',['bg_Green',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380aa85c71d6d00780a5c6096820f1ac0f26',1,'colors.h']]],
+  ['bg_5fiblack_19',['bg_iBlack',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380ac5c86d8c7ede086c4f0336590d8a9800',1,'colors.h']]],
+  ['bg_5fiblue_20',['bg_iBlue',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380ae9b6a45236ae2dcd83ff3e388ea90f69',1,'colors.h']]],
+  ['bg_5ficyan_21',['bg_iCyan',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380ac783be57a4f40a59a301aae84d3e0aa5',1,'colors.h']]],
+  ['bg_5figold_22',['bg_iGold',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a765e4ef5894cfcf620645b29fe6d6f11',1,'colors.h']]],
+  ['bg_5figreen_23',['bg_iGreen',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a72409b1e1c8c261f64b767b227149572',1,'colors.h']]],
+  ['bg_5fipurple_24',['bg_iPurple',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380aa89001d207266d44b9faf63de97350f6',1,'colors.h']]],
+  ['bg_5fired_25',['bg_iRed',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380ae965d98ea7517ab1a4fd8d27c32751b3',1,'colors.h']]],
+  ['bg_5fiwhite_26',['bg_iWhite',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a6a486a128b05ca16775f39dce7ec895c',1,'colors.h']]],
+  ['bg_5fpurple_27',['bg_Purple',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a6a001e295561cf3f63bf802e9fae0d1c',1,'colors.h']]],
+  ['bg_5fred_28',['bg_Red',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380a4f6a0ebaf0e78e58dbc2b3756b0f5669',1,'colors.h']]],
+  ['bg_5fwhite_29',['bg_White',['../colors_8h.html#a6bb3259e347f2d552f96954e23eef380adc67f03d92c92216f9fa8f1e6a34a378',1,'colors.h']]]
+];

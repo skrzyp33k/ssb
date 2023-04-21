@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSB: Plik źródłowy SSB_ref_v2/file_functions.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SSB
+   &#160;<span id="projectnumber">2.3</span>
+   </div>
+   <div id="projectbrief">Skrzypek&#39;s &amp; Sokół&#39;s contacts Base</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2a461184b69a50f5637f66dcdfee4465.html">SSB_ref_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">file_functions.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="file__functions_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#ifndef _FILE_FUNCTIONS_H_</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#define _FILE_FUNCTIONS_H_</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#a1af88298317e06ce379b8b484c25b5b8">writeString</a>(<span class="keywordtype">char</span>* str, FILE* f);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#acb659258561b14728dffa0e0d15b685e">writeContact</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#a086e30c69e1dc31d89d40c7a4891486c">writePhone</a>();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#af9485aeb8c67e64f4720e9443ccd4d0e">writeAdress</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#a6f04d9c16fb5197f33db5af251a5a3c3">writeEmail</a>();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#a47f681d1f3aeff71783b3b9a41614ed9">writeGroup</a>();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#aeffcc40ef045b40be188fabf03fe130c">writeRelation</a>();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#a167956fbab4d27480ae805a288069489">writeUsers</a>();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> <a class="code" href="file__functions_8h.html#ace9ff262e1947e3791efa6f27cdc4418">writeData</a>();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="afile__functions_8h_html_a086e30c69e1dc31d89d40c7a4891486c"><div class="ttname"><a href="file__functions_8h.html#a086e30c69e1dc31d89d40c7a4891486c">writePhone</a></div><div class="ttdeci">void writePhone()</div><div class="ttdoc">Funkcja zapisująca telefony do pliku phones.ssb Jeżeli telefon należy do usuwanego kontaktu to nie za...</div><div class="ttdef"><b>Definition:</b> file_functions.c:27</div></div>
+<div class="ttc" id="afile__functions_8h_html_a167956fbab4d27480ae805a288069489"><div class="ttname"><a href="file__functions_8h.html#a167956fbab4d27480ae805a288069489">writeUsers</a></div><div class="ttdeci">void writeUsers()</div><div class="ttdoc">Funkcja zapisująca użytkowników do pliku users.ssb.</div><div class="ttdef"><b>Definition:</b> file_functions.c:97</div></div>
+<div class="ttc" id="afile__functions_8h_html_a1af88298317e06ce379b8b484c25b5b8"><div class="ttname"><a href="file__functions_8h.html#a1af88298317e06ce379b8b484c25b5b8">writeString</a></div><div class="ttdeci">void writeString(char *str, FILE *f)</div><div class="ttdoc">Funkcja zapisująca dany ciąg znaków do podanego pliku.</div><div class="ttdef"><b>Definition:</b> file_functions.c:8</div></div>
+<div class="ttc" id="afile__functions_8h_html_a47f681d1f3aeff71783b3b9a41614ed9"><div class="ttname"><a href="file__functions_8h.html#a47f681d1f3aeff71783b3b9a41614ed9">writeGroup</a></div><div class="ttdeci">void writeGroup()</div><div class="ttdoc">Funkcja zapisująca grupy do pliku groups.ssb Jeżeli grupa jest w kolejce do usunięcia to jej nie zapi...</div><div class="ttdef"><b>Definition:</b> file_functions.c:69</div></div>
+<div class="ttc" id="afile__functions_8h_html_a6f04d9c16fb5197f33db5af251a5a3c3"><div class="ttname"><a href="file__functions_8h.html#a6f04d9c16fb5197f33db5af251a5a3c3">writeEmail</a></div><div class="ttdeci">void writeEmail()</div><div class="ttdoc">Funkcja zapisująca e-maile do pliku emails.ssb Jeżeli e-mail należy do usuwanego kontaktu to nie zapi...</div><div class="ttdef"><b>Definition:</b> file_functions.c:55</div></div>
+<div class="ttc" id="afile__functions_8h_html_acb659258561b14728dffa0e0d15b685e"><div class="ttname"><a href="file__functions_8h.html#acb659258561b14728dffa0e0d15b685e">writeContact</a></div><div class="ttdeci">void writeContact()</div><div class="ttdoc">Funkcja zapisująca kontakty do pliku contacts.ssb Jeżeli kontakt jest w kolejce do usunięcia to go ni...</div><div class="ttdef"><b>Definition:</b> file_functions.c:13</div></div>
+<div class="ttc" id="afile__functions_8h_html_ace9ff262e1947e3791efa6f27cdc4418"><div class="ttname"><a href="file__functions_8h.html#ace9ff262e1947e3791efa6f27cdc4418">writeData</a></div><div class="ttdeci">void writeData()</div><div class="ttdoc">Funkcja wywołująca po kolei wszystkie funkcje zapisujące dane.</div><div class="ttdef"><b>Definition:</b> file_functions.c:110</div></div>
+<div class="ttc" id="afile__functions_8h_html_aeffcc40ef045b40be188fabf03fe130c"><div class="ttname"><a href="file__functions_8h.html#aeffcc40ef045b40be188fabf03fe130c">writeRelation</a></div><div class="ttdeci">void writeRelation()</div><div class="ttdoc">Funkcja zapisująca relacje do pliku relations.ssb Jeżeli relacja jest w kolejce do usunięcia to jej n...</div><div class="ttdef"><b>Definition:</b> file_functions.c:83</div></div>
+<div class="ttc" id="afile__functions_8h_html_af9485aeb8c67e64f4720e9443ccd4d0e"><div class="ttname"><a href="file__functions_8h.html#af9485aeb8c67e64f4720e9443ccd4d0e">writeAdress</a></div><div class="ttdeci">void writeAdress()</div><div class="ttdoc">Funkcja zapisująca adresy do pliku adresses.ssb Jeżeli adres należy do usuwanego kontaktu to nie zapi...</div><div class="ttdef"><b>Definition:</b> file_functions.c:41</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

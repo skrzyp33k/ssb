@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SSB: Plik źródłowy SSB_ref_v2/md5.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">SSB
+   &#160;<span id="projectnumber">2.3</span>
+   </div>
+   <div id="projectbrief">Skrzypek&#39;s &amp; Sokół&#39;s contacts Base</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_2a461184b69a50f5637f66dcdfee4465.html">SSB_ref_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">md5.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="md5_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">/*****Please include following header files*****/</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#pragma warning(disable:4996)</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">/***********************************************/</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="unionuwb.html">   19</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span><a class="code" href="unionuwb.html">uwb</a> {</div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="unionuwb.html#aab2ee9ec393223c855b9595e52382ac0">   20</a></span>&#160;    <span class="keywordtype">unsigned</span> <a class="code" href="unionuwb.html#aab2ee9ec393223c855b9595e52382ac0">w</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="unionuwb.html#a61a5d0fa7c6684d64d4709fbec39695a">   21</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="unionuwb.html#a61a5d0fa7c6684d64d4709fbec39695a">b</a>[4];</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">   22</a></span>&#160;} <a class="code" href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">MD5union</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="md5_8h.html#aa14e2f3cc779c27ca1389748d3c576f7">   24</a></span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#aa14e2f3cc779c27ca1389748d3c576f7">DigestArray</a>[4]; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="md5_8h.html#a96bca7f42d8cb1c857d0348fe24b1126">   26</a></span>&#160;<span class="keyword">typedef</span> unsigned(*<a class="code" href="md5_8h.html#a96bca7f42d8cb1c857d0348fe24b1126">DgstFctn</a>)(<span class="keywordtype">unsigned</span> a[]); </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#a1db72d9e3e33863e52a2b30111a01057">func0</a>(<span class="keywordtype">unsigned</span> abcd[]);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#afdc9178dd2f7db32d5ab7c0d8515281f">func1</a>(<span class="keywordtype">unsigned</span> abcd[]);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#af77e695fb134f8cbed5403a19afda3f0">func2</a>(<span class="keywordtype">unsigned</span> abcd[]);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#ab23a5b53611578ffe91a7e2bfea4d022">func3</a>(<span class="keywordtype">unsigned</span> abcd[]);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">unsigned</span>* <a class="code" href="md5_8h.html#ad03908e0722c82aa21a23587add9583d">calctable</a>(<span class="keywordtype">unsigned</span>* k);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="keywordtype">unsigned</span> <a class="code" href="md5_8h.html#a949bc524787e4f189647754cccf95baa">rol</a>(<span class="keywordtype">unsigned</span> r, <span class="keywordtype">short</span> N);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordtype">unsigned</span>* <a class="code" href="md5_8h.html#aea9f4352ea083a103ba8a1dea0a23ae7">Algorithms_Hash_MD5</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg, <span class="keywordtype">int</span> mlen);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> <a class="code" href="md5_8h.html#acea743a5c72053d2c6c607aa627a86d3">GetMD5String</a>(<span class="keyword">const</span> <span class="keywordtype">char</span>* msg, <span class="keywordtype">char</span>* out);</div>
+<div class="ttc" id="amd5_8h_html_a1db72d9e3e33863e52a2b30111a01057"><div class="ttname"><a href="md5_8h.html#a1db72d9e3e33863e52a2b30111a01057">func0</a></div><div class="ttdeci">unsigned func0(unsigned abcd[])</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:14</div></div>
+<div class="ttc" id="amd5_8h_html_a806e0d93aae7cf613a232f2349f775a3"><div class="ttname"><a href="md5_8h.html#a806e0d93aae7cf613a232f2349f775a3">MD5union</a></div><div class="ttdeci">union uwb MD5union</div><div class="ttdoc">Struktura pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div></div>
+<div class="ttc" id="amd5_8h_html_a949bc524787e4f189647754cccf95baa"><div class="ttname"><a href="md5_8h.html#a949bc524787e4f189647754cccf95baa">rol</a></div><div class="ttdeci">unsigned rol(unsigned r, short N)</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:47</div></div>
+<div class="ttc" id="amd5_8h_html_a96bca7f42d8cb1c857d0348fe24b1126"><div class="ttname"><a href="md5_8h.html#a96bca7f42d8cb1c857d0348fe24b1126">DgstFctn</a></div><div class="ttdeci">unsigned(* DgstFctn)(unsigned a[])</div><div class="ttdoc">Definicja wskaźnika na funkcje potrzebną do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.h:26</div></div>
+<div class="ttc" id="amd5_8h_html_aa14e2f3cc779c27ca1389748d3c576f7"><div class="ttname"><a href="md5_8h.html#aa14e2f3cc779c27ca1389748d3c576f7">DigestArray</a></div><div class="ttdeci">unsigned DigestArray[4]</div><div class="ttdoc">Definicja tablicy 4 zmiennych typu unsigned.</div><div class="ttdef"><b>Definition:</b> md5.h:24</div></div>
+<div class="ttc" id="amd5_8h_html_ab23a5b53611578ffe91a7e2bfea4d022"><div class="ttname"><a href="md5_8h.html#ab23a5b53611578ffe91a7e2bfea4d022">func3</a></div><div class="ttdeci">unsigned func3(unsigned abcd[])</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:29</div></div>
+<div class="ttc" id="amd5_8h_html_acea743a5c72053d2c6c607aa627a86d3"><div class="ttname"><a href="md5_8h.html#acea743a5c72053d2c6c607aa627a86d3">GetMD5String</a></div><div class="ttdeci">void GetMD5String(const char *msg, char *out)</div><div class="ttdoc">Funkcja wywołująca funkcje obliczającą sumę kontrolną MD5 i zapisująca we wskaźniku sumę kontrolną MD...</div><div class="ttdef"><b>Definition:</b> md5.c:125</div></div>
+<div class="ttc" id="amd5_8h_html_ad03908e0722c82aa21a23587add9583d"><div class="ttname"><a href="md5_8h.html#ad03908e0722c82aa21a23587add9583d">calctable</a></div><div class="ttdeci">unsigned * calctable(unsigned *k)</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:34</div></div>
+<div class="ttc" id="amd5_8h_html_aea9f4352ea083a103ba8a1dea0a23ae7"><div class="ttname"><a href="md5_8h.html#aea9f4352ea083a103ba8a1dea0a23ae7">Algorithms_Hash_MD5</a></div><div class="ttdeci">unsigned * Algorithms_Hash_MD5(const char *msg, int mlen)</div><div class="ttdoc">Funkcja obliczająca sumę kontrolną MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:53</div></div>
+<div class="ttc" id="amd5_8h_html_af77e695fb134f8cbed5403a19afda3f0"><div class="ttname"><a href="md5_8h.html#af77e695fb134f8cbed5403a19afda3f0">func2</a></div><div class="ttdeci">unsigned func2(unsigned abcd[])</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:24</div></div>
+<div class="ttc" id="amd5_8h_html_afdc9178dd2f7db32d5ab7c0d8515281f"><div class="ttname"><a href="md5_8h.html#afdc9178dd2f7db32d5ab7c0d8515281f">func1</a></div><div class="ttdeci">unsigned func1(unsigned abcd[])</div><div class="ttdoc">Funkcja pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.c:19</div></div>
+<div class="ttc" id="aunionuwb_html"><div class="ttname"><a href="unionuwb.html">uwb</a></div><div class="ttdoc">Struktura pomocnicza wymagana do obliczenia sumy kontrolnej MD5.</div><div class="ttdef"><b>Definition:</b> md5.h:19</div></div>
+<div class="ttc" id="aunionuwb_html_a61a5d0fa7c6684d64d4709fbec39695a"><div class="ttname"><a href="unionuwb.html#a61a5d0fa7c6684d64d4709fbec39695a">uwb::b</a></div><div class="ttdeci">unsigned char b[4]</div><div class="ttdef"><b>Definition:</b> md5.h:21</div></div>
+<div class="ttc" id="aunionuwb_html_aab2ee9ec393223c855b9595e52382ac0"><div class="ttname"><a href="unionuwb.html#aab2ee9ec393223c855b9595e52382ac0">uwb::w</a></div><div class="ttdeci">unsigned w</div><div class="ttdef"><b>Definition:</b> md5.h:20</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
